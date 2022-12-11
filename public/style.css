@@ -1,0 +1,83 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#loginPage{
+    transition: .3s ease;
+    height: 100vh !important;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#chatPage{
+    transition: .3s ease;
+    
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.hidden-page{
+    display: none!important;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#chatTextInput{
+    outline: none;
+}
+
+ul, li{
+    list-style: none;
+}
+
+
+.chat-list li.m-status{
+    color: rgb(167, 167, 167);
+    font-style: italic;
+}
+
+
+.chat-list li.m-txt p{
+    word-break: break-all;
+}
+.chat-list {
+    padding-left: .7rem !important;
+    overflow-y: auto;
+    max-height: calc(100vh - 40px);
+}
+
+.chat-list li{
+    max-width: 250px !important;
+    padding: .3rem !important;
+    
+}
+.chat-list li > p{
+    background-color: #bdc3c7;
+    display: inline-block !important;
+    border-radius: 1rem;
+    padding: .5rem !important;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.user{
+    font-weight: bold;
+    color: rgb(10, 48, 218) !important;
+}
+.me{
+    font-weight: bold;
+    color: rgb(221, 48, 48) !important; 
+}
+.users-list{
+    overflow-y: auto;
+    max-height: calc(100vh - 40px);
+    padding-left: .9rem !important;
+}
+.users-list > li{
+    
+    padding:.3rem 0 !important;
+    font-weight: bold;
+}
